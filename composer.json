@@ -1,6 +1,6 @@
 {
     "name": "recoil/peridot",
-    "description": "Write Peridot tests using Recoil coroutines.",
+    "description": "A Peridot extension that executes tests as Recoil coroutines",
     "require": {
         "php": "^7",
         "recoil/recoil": "dev-feature/php7"
