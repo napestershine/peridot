@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "748cb4db41acf92d1a4c6124e68989db",
-    "content-hash": "35ebac85f0b61a40b051162fc5f2ca48",
+    "hash": "de4fc4e980e8983cca367d2c6f9c3458",
+    "content-hash": "1e1b52802f4aa4c66e8a1b6dce579f4c",
     "packages": [
         {
             "name": "icecave/repr",
@@ -147,16 +147,16 @@
         },
         {
             "name": "recoil/recoil",
-            "version": "dev-feature/php7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/recoilphp/recoil.git",
-                "reference": "2024ee4c645c80968ddbbdce65a8a399dad2bf22"
+                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/2024ee4c645c80968ddbbdce65a8a399dad2bf22",
-                "reference": "2024ee4c645c80968ddbbdce65a8a399dad2bf22",
+                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/d120ef09e5831ac235d5b5e79c4077d995770d28",
+                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28",
                 "shasum": ""
             },
             "require": {
@@ -168,14 +168,10 @@
             "require-dev": {
                 "eloquent/phony": "^0.8",
                 "icecave/archer": "^1",
+                "phpunit/phpunit": "^5.2",
                 "react/dns": "^0.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "0.3.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Recoil\\": "src"
@@ -206,7 +202,7 @@
                 "multitasking",
                 "react"
             ],
-            "time": "2016-03-05 00:24:44"
+            "time": "2016-03-06 09:52:34"
         }
     ],
     "packages-dev": [
