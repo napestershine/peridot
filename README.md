@@ -9,7 +9,16 @@ Write [Peridot](http://github.com/peridot-php/peridot) tests using Recoil corout
 
 ## Usage
 
-    Uh oh, there's nothing here!
+Simply return a new instance of `Recoil\Peridot\Configurator` in your Peridot
+configuration file.
+
+```php
+use Recoil\Peridot\Configurator;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+return new Configurator();
+```
 
 ## Building and testing
 
