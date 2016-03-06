@@ -3,7 +3,7 @@
     "description": "A Peridot extension that executes tests as Recoil coroutines",
     "require": {
         "php": "^7",
-        "recoil/recoil": "dev-feature/php7"
+        "recoil/recoil": "dev-master"
     },
     "require-dev": {
         "eloquent/phony": "^0.8",
