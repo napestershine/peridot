@@ -1,0 +1,38 @@
+{
+    "name": "recoil/peridot",
+    "description": "Write Peridot tests using Recoil coroutines.",
+    "require": {
+        "php": "^7",
+        "recoil/recoil": "dev-feature/php7"
+    },
+    "require-dev": {
+        "eloquent/phony": "^0.8",
+        "fabpot/php-cs-fixer": "^1",
+        "peridot-php/leo": "^1",
+        "peridot-php/peridot": "^1",
+        "peridot-php/peridot-code-coverage-reporters": "^1",
+        "phpunit/php-code-coverage": "^2"
+    },
+    "autoload": { "psr-4" : { "Recoil\\Peridot\\": "src" }},
+    "autoload-dev": { "psr-4" : { "Recoil\\Peridot\\": "test/src" }},
+    "keywords": [
+        "async",
+        "asynchronous",
+        "coroutine",
+        "generator",
+        "peridot",
+        "recoil",
+        "test",
+        "testing",
+        "unit"
+    ],
+    "homepage": "https://github.com/recoilphp/peridot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Harris",
+            "email": "james.harris@icecave.com.au",
+            "homepage": "https://github.com/jmalloc"
+        }
+    ]
+}
