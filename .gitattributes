@@ -1,7 +1,7 @@
 .gitattributes export-ignore
 .gitignore export-ignore
 /.* export-ignore
-/composer.lock
-/Makefile
-/peridot.*
+/composer.lock export-ignore
+/Makefile export-ignore
+/peridot.php export-ignore
 /test export-ignore
