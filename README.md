@@ -10,15 +10,15 @@ as [Recoil](https://github.com/recoilphp/recoil) coroutines.
 
 ## Usage
 
-Simply return a new instance of `Recoil\Peridot\Configurator` in your Peridot
+Simply return a new instance of `Recoil\Peridot\RecoilTestExecutor` in your Peridot
 configuration file.
 
 ```php
-use Recoil\Peridot\Configurator;
+use Recoil\Peridot\RecoilTestExecutor;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-return new Configurator();
+return new RecoilTestExecutor();
 ```
 
 You can then use PHP generators as coroutines in your `beforeEach`, `afterEach`

@@ -10,8 +10,16 @@ use Peridot\Core\Suite;
 use Recoil\React\ReactKernel;
 use ReflectionClass;
 
-final class Configurator
+final class RecoilTestExecutor
 {
+    /**
+     * @codeCoverageIgnore
+     */
+    public function __construct(callable $next = null)
+    {
+        $this->next = $next;
+    }
+
     /**
      * @codeCoverageIgnore
      */
@@ -23,6 +31,10 @@ final class Configurator
                 $this->wrapSuite($suite);
             }
         );
+
+        if ($this->next) {
+            ($this->next)($emitter);
+        }
     }
 
     private function wrapSuite(Suite $suite)
@@ -87,6 +99,7 @@ final class Configurator
         };
     }
 
+    private $next;
     private $definition;
     private $setUpFns;
     private $tearDownFns;

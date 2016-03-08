@@ -6,7 +6,7 @@ namespace Recoil\Peridot;
 
 use Recoil\Recoil;
 
-describe(Configurator::class, function () {
+describe(RecoilTestExecutor::class, function () {
 
     describe('peridot functions as coroutines', function () {
 
