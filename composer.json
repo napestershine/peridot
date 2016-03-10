@@ -10,7 +10,7 @@
         "fabpot/php-cs-fixer": "^1",
         "peridot-php/leo": "^1",
         "peridot-php/peridot": "^1",
-        "peridot-php/peridot-code-coverage-reporters": "^1",
+        "peridot-php/peridot-code-coverage-reporters": "^2",
         "phpunit/php-code-coverage": "^2"
     },
     "autoload": { "psr-4" : { "Recoil\\Peridot\\": "src" }},

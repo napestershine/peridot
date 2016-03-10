@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de4fc4e980e8983cca367d2c6f9c3458",
-    "content-hash": "1e1b52802f4aa4c66e8a1b6dce579f4c",
+    "hash": "42c7a1527ebf3ccfaba15101da3fa0ab",
+    "content-hash": "3690a0f515e570923547d314a0791088",
     "packages": [
         {
             "name": "icecave/repr",
@@ -60,16 +60,16 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/164799f73175e1c80bba92a220ea35df6ca371dd",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd",
                 "shasum": ""
             },
             "require": {
@@ -83,12 +83,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\EventLoop\\": ""
+                    "React\\EventLoop\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -97,9 +97,10 @@
             ],
             "description": "Event loop abstraction layer that libraries can use for evented I/O.",
             "keywords": [
+                "asynchronous",
                 "event-loop"
             ],
-            "time": "2014-02-26 17:36:58"
+            "time": "2016-03-08 02:09:32"
         },
         {
             "name": "react/promise",
@@ -151,12 +152,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/recoilphp/recoil.git",
-                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28"
+                "reference": "aed0dc25ef41319335dcfac32236539cf240e09b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/d120ef09e5831ac235d5b5e79c4077d995770d28",
-                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28",
+                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/aed0dc25ef41319335dcfac32236539cf240e09b",
+                "reference": "aed0dc25ef41319335dcfac32236539cf240e09b",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +168,7 @@
             },
             "require-dev": {
                 "eloquent/phony": "^0.8",
-                "icecave/archer": "^1",
+                "fabpot/php-cs-fixer": "^1",
                 "phpunit/phpunit": "^5.2",
                 "react/dns": "^0.4"
             },
@@ -202,7 +203,7 @@
                 "multitasking",
                 "react"
             ],
-            "time": "2016-03-06 09:52:34"
+            "time": "2016-03-07 00:32:18"
         }
     ],
     "packages-dev": [
@@ -495,16 +496,16 @@
         },
         {
             "name": "peridot-php/peridot-code-coverage-reporters",
-            "version": "1.0.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/peridot-php/peridot-code-coverage-reporters.git",
-                "reference": "129805888622a41df26a05bd211c96bc5183e018"
+                "reference": "fb516aad3792766923c8d158de8e692d23a1713b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/peridot-php/peridot-code-coverage-reporters/zipball/129805888622a41df26a05bd211c96bc5183e018",
-                "reference": "129805888622a41df26a05bd211c96bc5183e018",
+                "url": "https://api.github.com/repos/peridot-php/peridot-code-coverage-reporters/zipball/fb516aad3792766923c8d158de8e692d23a1713b",
+                "reference": "fb516aad3792766923c8d158de8e692d23a1713b",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +533,7 @@
                 }
             ],
             "description": "Code coverage reporters for Peridot PHP.",
-            "time": "2014-10-30 16:15:14"
+            "time": "2016-03-10 09:58:39"
         },
         {
             "name": "peridot-php/peridot-scope",
@@ -1170,7 +1171,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",

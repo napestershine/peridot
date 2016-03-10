@@ -12,17 +12,11 @@ use ReflectionClass;
 
 final class RecoilTestExecutor
 {
-    /**
-     * @codeCoverageIgnore
-     */
     public function __construct(callable $next = null)
     {
         $this->next = $next;
     }
 
-    /**
-     * @codeCoverageIgnore
-     */
     public function __invoke(EventEmitterInterface $emitter)
     {
         $emitter->on(
