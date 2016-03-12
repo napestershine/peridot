@@ -2,6 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/recoilphp/peridot/master.svg?style=flat-square)](https://travis-ci.org/recoilphp/peridot)
 [![Code Coverage](https://img.shields.io/codecov/c/github/recoilphp/peridot/master.svg?style=flat-square)](https://codecov.io/github/recoilphp/peridot)
+[![Latest Version](http://img.shields.io/packagist/v/recoil/peridot.svg?style=flat-square&label=semver)](https://semver.org)
 
 A [Peridot](https://github.com/peridot-php/peridot) extension that executes tests
 as [Recoil](https://github.com/recoilphp/recoil) coroutines.
