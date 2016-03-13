@@ -60,16 +60,16 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/164799f73175e1c80bba92a220ea35df6ca371dd",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd",
                 "shasum": ""
             },
             "require": {
@@ -83,12 +83,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\EventLoop\\": ""
+                    "React\\EventLoop\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -97,9 +97,10 @@
             ],
             "description": "Event loop abstraction layer that libraries can use for evented I/O.",
             "keywords": [
+                "asynchronous",
                 "event-loop"
             ],
-            "time": "2014-02-26 17:36:58"
+            "time": "2016-03-08 02:09:32"
         },
         {
             "name": "react/promise",
@@ -151,23 +152,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/recoilphp/recoil.git",
-                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28"
+                "reference": "d6ba42add1e7be5d8b3b7c5829905542e57d5e1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/d120ef09e5831ac235d5b5e79c4077d995770d28",
-                "reference": "d120ef09e5831ac235d5b5e79c4077d995770d28",
+                "url": "https://api.github.com/repos/recoilphp/recoil/zipball/d6ba42add1e7be5d8b3b7c5829905542e57d5e1f",
+                "reference": "d6ba42add1e7be5d8b3b7c5829905542e57d5e1f",
                 "shasum": ""
             },
             "require": {
                 "icecave/repr": "^1",
-                "php": ">=7",
+                "php": "^7",
                 "react/event-loop": "^0.4",
                 "react/promise": "^2"
             },
             "require-dev": {
                 "eloquent/phony": "^0.8",
-                "icecave/archer": "^1",
+                "fabpot/php-cs-fixer": "^1",
                 "phpunit/phpunit": "^5.2",
                 "react/dns": "^0.4"
             },
@@ -202,7 +203,7 @@
                 "multitasking",
                 "react"
             ],
-            "time": "2016-03-06 09:52:34"
+            "time": "2016-03-12 04:59:52"
         }
     ],
     "packages-dev": [
@@ -1170,7 +1171,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
